@@ -1,4 +1,4 @@
-import { geolocation, ipAddress } from "@vercel/edge";
+import { geolocation, ipAddress } from "@vercel/functions";
 
 export const config = {
 	runtime: "edge",
@@ -13,6 +13,6 @@ export default function (request) {
 		}),
 		{
 			headers: { "content-type": "application/json" },
-		}
+		},
 	);
 }

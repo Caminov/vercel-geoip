@@ -2,7 +2,7 @@
 
 Returns Vercel's Geolocation headers back on requests for a simple GeoIP service without tracking.
 
-Demo at [accudio-geoip.vercel.app](https://accudio-geoip.vercel.app)
+Demo at [vheaders.fringuant.com](https://vheaders.fringuant.com)
 
 Exposes:
 
